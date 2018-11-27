@@ -1,0 +1,18 @@
+{
+  "name": "smart-goals",
+  "version": "1.0.0",
+  "description": "=== Twenty Seventeen === Contributors: the WordPress team Requires at least: WordPress 4.7 Tested up to: WordPress 5.0-trunk Version: 1.7 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^2.1.14",
+    "vue": "^2.5.17"
+  }
+}

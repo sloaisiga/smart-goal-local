@@ -1,0 +1,9 @@
+input.orig::placeholder {
+  color: red !important;
+}
+input.orig:-ms-input-placeholder {
+  color: red !important;
+}
+input.orig::-ms-input-placeholder {
+  color: red !important;
+}

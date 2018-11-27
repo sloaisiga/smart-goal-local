@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*Mobile screen */
+.has-header-image.home.blog .custom-header {
+	height: 26vh;
+}
+
+/*Computer screen */
+@media screen and (min-width: 48em){
+	.has-header-image.home.blog .custom-header {
+        height: 36vh;
+    }
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

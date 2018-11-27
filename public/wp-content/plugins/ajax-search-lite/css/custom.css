@@ -1,0 +1,31 @@
+#ajaxsearchlite1 .probox .proinput input.orig::placeholder {
+	color: #000 !important;
+	font-size: 14px;
+}
+
+div.asl_w .probox div.prosettings,
+div.asl_w .probox .promagnifier,
+#ajaxsearchlite1 .probox, 
+div.asl_w .probox,
+div.asl_w{
+	background-color: transparent !important;
+  background-image: none;
+}
+
+div.asl_w .probox .promagnifier {
+	background-color: gray !important;
+}
+
+div.asl_w .probox .promagnifier .innericon svg{
+	fill: #000;
+}
+
+#ajaxsearchlite1 .probox{
+	border: 1px solid #000;
+  	border-radius: 5px;
+}
+
+#ajaxsearchlite1 .probox .proinput input, 
+div.asl_w .probox .proinput input{
+  color: #000 !important;
+}
